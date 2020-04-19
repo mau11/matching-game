@@ -1,8 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Layout from './components/Layout.jsx'
 
-const App = () => {
-  return <div>Matching Game</div>
-}
-
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<Layout />, document.getElementById('app'))
