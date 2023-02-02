@@ -20,8 +20,8 @@
 
 ## Requirements
 
-- Node 11.12.0
-- NPM 6.7.0
+- Node 18.13.0
+- Yarn 1.22.19
 
 ## Development
 
@@ -30,13 +30,13 @@
 From within the root directory:
 
 ```sh
-$ npm install
+$ yarn install
 ```
 
 #### Build and Serve App
 From root directory
 ```
-$ npm run-script dev
+$ yarn dev
 ```
 
 ## View Application
