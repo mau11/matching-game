@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/mau11/matching-game.svg?branch=master)](https://travis-ci.org/mau11/matching-game)
-
-
 # The Matching Game
 
 > A single player card matching game
@@ -42,7 +39,7 @@ $ yarn dev
 ## View Application
 For development, in your browser, navigate to
 ```sh
-http://localhost:8080
+http://localhost:3000
 ```
 
 View the latest deploy at: https://the-matching-game.herokuapp.com/
