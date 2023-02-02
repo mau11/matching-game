@@ -1,5 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from "react-dom/client";
 import Layout from './components/Layout.jsx'
 
-ReactDOM.render(<Layout />, document.getElementById('app'))
+const root = createRoot(document.getElementById('app'))
+root.render(<Layout />)

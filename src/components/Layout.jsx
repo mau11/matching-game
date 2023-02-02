@@ -1,15 +1,13 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react'
 import GameBoard from './GameBoard.jsx'
 
-export default class Layout extends Component {
-
-  render() {
+const Layout = () => {
     return (
-      <div>
-        <h1>The Matching Game</h1>
-        <GameBoard />
-      </div>
+        <div>
+            <h1>The Matching Game</h1>
+            <GameBoard />
+        </div>
     )
-  }
 }
+
+export default Layout
